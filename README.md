@@ -71,3 +71,6 @@
 Optimizo mi flujo de trabajo con IA añadiendo al final de mis consultas la frase: 
 **"Hazme cinco preguntas clave, una a una, para asegurar que entiendes perfectamente mi necesidad."** 
 Este enfoque socrático transforma los monólogos en diálogos estratégicos, eliminando la ambigüedad y garantizando resultados de precisión al primer intento.
+
+This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings with free developer tiers.
+https://github.com/ripienaar/free-for-dev
