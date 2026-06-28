@@ -74,3 +74,6 @@ Este enfoque socrático transforma los monólogos en diálogos estratégicos, el
 
 This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings with free developer tiers.
 https://github.com/ripienaar/free-for-dev
+
+Con esto quizás pueda mejorar el audio de La madre de Ioseba.
+https://voice-clone.org/tools/audio-enhancer
