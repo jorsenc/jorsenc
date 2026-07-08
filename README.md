@@ -70,6 +70,8 @@ Apasionado por la evolución de la tecnología y la informática desde sus inici
         BBBBBBB##BBBBBBBBBBBBBBBBBBBBBBB##B#&B7~^^^^^~~!!!!!!!!!!!!!!!!~~^^^^^^^^^^^^!?G######BBGGGGGGGGGB####BBBBBBBBBBBBBBB###
 </pre>
 
+ANOTACIONES
+
 Optimizo mi flujo de trabajo con IA añadiendo al final de mis consultas la frase: 
 **"Hazme cinco preguntas clave, una a una, para asegurar que entiendes perfectamente mi necesidad."** 
 Este enfoque socrático transforma los monólogos en diálogos estratégicos, eliminando la ambigüedad y garantizando resultados de precisión al primer intento.
