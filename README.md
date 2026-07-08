@@ -1,3 +1,5 @@
+Apasionado por la evolución de la tecnología y la informática desde sus inicios. Mi primer contacto con la programación fue con un Sinclair ZX81, equipado con un procesador Z80A y apenas 1 KB de memoria, lo que marcó el inicio de un recorrido autodidacta que continúa hasta hoy.
+
 <pre>
         PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
         PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
