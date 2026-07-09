@@ -84,5 +84,7 @@ https://voice-clone.org/tools/audio-enhancer
 
 MCP SERVERS - https://mcpservers.com/es
 
+DESCARGA TUS DATOS DE GOOGLE - https://takeout.google.com/
+
 Caja de ritmos experimental desarrollada con Z.ai y GLM 5.2.
 https://chat.z.ai/space/f1rnr5xgw7q0-art
