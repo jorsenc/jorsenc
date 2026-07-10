@@ -72,6 +72,8 @@ Apasionado por la evolución de la tecnología y la informática desde sus inici
 
 ANOTACIONES
 
+ScrapeGraphAI is a web scraping python library that uses LLM and direct graph logic to create scraping pipelines for websites and local documents (XML, HTML, JSON, Markdown, etc.). Just say which information you want to extract and the library will do it for you! https://github.com/ScrapeGraphAI/Scrapegraph-ai
+
 Optimizo mi flujo de trabajo con IA añadiendo al final de mis consultas la frase: 
 **"Hazme cinco preguntas clave, una a una, para asegurar que entiendes perfectamente mi necesidad."** 
 Este enfoque socrático transforma los monólogos en diálogos estratégicos, eliminando la ambigüedad y garantizando resultados de precisión al primer intento.
