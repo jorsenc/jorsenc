@@ -1,4 +1,4 @@
-Apasionado por la evolución de la tecnología y la informática desde sus inicios. Mi primer contacto con la programación fué en lenguaje BASIC con un Sinclair ZX81 equipado con un procesador Z80A y 1 KB de memoria, lo que marcó el inicio de un recorrido autodidacta que continúa hasta hoy.
+Apasionado por la evolución de la tecnología y la informática desde sus inicios. Mi primer contacto con la programación fué en lenguaje BASIC con un Sinclair ZX81 equipado con un procesador Z80A de Zylog y 1 KB de memoria, lo que marcó el inicio de un recorrido autodidacta que continúa hasta hoy.
 
 <pre>
         PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
