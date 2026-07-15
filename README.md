@@ -78,6 +78,8 @@ Optimizo mi flujo de trabajo con IA añadiendo al final de mis consultas la fras
 **"Hazme cinco preguntas clave, una a una, para asegurar que entiendes perfectamente mi necesidad."** 
 Este enfoque socrático transforma los monólogos en diálogos estratégicos, eliminando la ambigüedad y garantizando resultados de precisión al primer intento.
 
+https://github.com/jorsenc/jorsenc/blob/main/karpathy_prompt.html
+
 https://app.notion.com/p/Alvaro-Morales-IA-BIBLIOTECA-DE-RECURSOS-3000-32b1412b021e8076a02eda9da8b521a5
 
 This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings with free developer tiers.
