@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kit — El archivo que arregla tu Claude</title>
+<style>
+  :root {
+    --bg: #0A0A0B;
+    --surface: #121114;
+    --border: rgba(255,255,255,0.10);
+    --accent: #A678FF;
+    --accent-light: #CBB6FF;
+    --text: #F4F1FA;
+    --text-2: #B3ACC6;
+    --text-3: #8A83A0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    background-image: radial-gradient(60% 50% at 90% 0%, rgba(120,80,230,0.16), transparent 60%),
+                       radial-gradient(50% 40% at 10% 5%, rgba(60,46,110,0.25), transparent 60%);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55;
+    padding: 48px 20px 96px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 32px; font-weight: 800; margin: 0 0 8px; }
+  h1 em { font-style: normal; color: var(--accent-light); }
+  .sub { color: var(--text-2); font-size: 17px; margin: 0 0 40px; }
+  h2 {
+    font-size: 15px; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--accent-light); margin: 0 0 4px;
+  }
+  .card-lead { color: var(--text-2); font-size: 15px; margin: 0 0 14px; }
+  .card {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 44px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  }
+  .card-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 18px;
+    background: rgba(255,255,255,0.03);
+    border-bottom: 1px solid var(--border);
+  }
+  .card-title {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 14px; color: var(--text-3);
+  }
+  .copy-btn {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-light);
+    background: rgba(166,120,255,0.12);
+    border: 1px solid rgba(166,120,255,0.35);
+    border-radius: 7px;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  .copy-btn:hover { background: rgba(166,120,255,0.2); }
+  .card-body {
+    padding: 24px 26px;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 15px;
+    color: var(--text-2);
+    white-space: pre-wrap;
+  }
+  .card-body b { color: var(--accent-light); font-weight: 700; }
+  footer { color: var(--text-3); font-size: 14px; text-align: center; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>El archivo que <em>arregla</em> tu Claude</h1>
+  <p class="sub">Los 2 prompts: instala el CLAUDE.md de Karpathy y construye tu propio dashboard de IA con chat integrado.</p>
+
+  <h2>Paso 1 — Instalación</h2>
+  <p class="card-lead">Pégalo al principio de cualquier conversación, en Claude o Claude Code.</p>
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">instalar-karpathy.txt</span>
+      <button class="copy-btn" onclick="copyPrompt('prompt1', this)">Copiar</button>
+    </div>
+    <div class="card-body" id="prompt1">Instala este archivo como mis reglas de comportamiento para este proyecto: <b>https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/CLAUDE.md</b>
+
+Guárdalo como CLAUDE.md en la raíz y, a partir de ahora, sigue esas 4 reglas en todo lo que te pida: piensa antes de construir, mantenlo simple, toca solo lo que te pido, y no des nada por terminado sin verificar que cumple el objetivo.
+
+Confírmame que lo has instalado y resume en una frase cada una de las 4 reglas.</div>
+  </div>
+
+  <h2>Paso 2 — El prompt del dashboard "JARVIS"</h2>
+  <p class="card-lead">Pégalo justo después del paso 1, y luego adjunta los documentos que quieras que el chat conozca.</p>
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">prompt-dashboard-ia.txt</span>
+      <button class="copy-btn" onclick="copyPrompt('prompt2', this)">Copiar</button>
+    </div>
+    <div class="card-body" id="prompt2">Eres un <b>diseñador de producto y desarrollador frontend senior</b>, especializado en interfaces de IA de última generación: el nivel de Linear, Vercel o Arc Browser. Vas a construir un dashboard personal con un chat de IA integrado, que se vea como el panel de control de un asistente del futuro, no como una web corporativa cualquiera.
+
+<b>CONTEXTO Y PROPÓSITO</b>
+Este dashboard es mi centro de mando personal. Tiene un chat conectado a mi base de conocimiento (los documentos que yo le vaya indicando), donde puedo preguntarle cualquier cosa y me responde citando de dónde ha sacado cada dato. No es un chatbot genérico: es mi propio cerebro externo, entrenado con mi contenido.
+
+<b>DISEÑO VISUAL, ESTO ES LO MÁS IMPORTANTE</b>
+Estética oscura y futurista: fondo negro/azul muy oscuro con un degradado sutil en movimiento de fondo, tipo aurora boreal lenta, nunca brusco. Efecto glassmorphism en los paneles: bordes translúcidos, blur de fondo, brillo suave en el borde del panel activo. Partículas o líneas finas animadas de fondo, muy sutiles, sensación de sistema vivo sin distraer del contenido. Tipografía moderna tipo Space Grotesk o Inter, jerarquía clara: titular grande, texto secundario más tenue. Microinteracciones en todo: botones con glow o escalado al hover, tarjetas que se elevan sutilmente, transiciones suaves de 300 a 400ms, nunca bruscas. Paleta: negro/azul oscuro de base más un color de acento vibrante (violeta, cian o verde neón) usado solo en elementos clave.
+
+<b>EL CHAT, CÓMO TIENE QUE COMPORTARSE</b>
+Al cargar, saluda con efecto de escritura en directo, nunca aparece todo el texto de golpe. Mientras piensa, muestra un estado de carga elegante y propio (nada de spinner genérico) que comunique "estoy leyendo tus documentos". Cada respuesta cita explícitamente de qué documento ha sacado la información, con un chip o etiqueta. El historial tiene scroll suave y los mensajes nuevos entran con fade y desplazamiento, nunca un salto brusco.
+
+<b>FUNCIONALIDAD REAL, NO SOLO DISEÑO</b>
+El chat tiene que estar conectado de verdad a contenido real: los documentos que te voy a pasar ahora. No me montes un mockup con respuestas inventadas — si le pregunto algo que está en esos documentos, tiene que responder con el dato real. Si no tiene información suficiente para responder algo, tiene que decírmelo claramente en vez de inventarse una respuesta.
+
+<b>RESTRICCIONES TÉCNICAS</b>
+Un único archivo autocontenido, sin dependencias externas que puedan romperse, listo para abrir o desplegar en cualquier hosting simple. Tiene que funcionar perfecto en móvil y escritorio. Si tienes que elegir entre una animación más y que el chat responda bien de verdad, elige que el chat responda bien.
+
+<b>ANTES DE DÁRMELO POR TERMINADO</b>
+Revisa tú mismo, como si fueras yo abriendo esto por primera vez: ¿el chat responde de verdad con datos de mis documentos, o se lo está inventando? ¿Alguna animación se ve rota, cortada o con parpadeos? ¿Esto se ve como algo que costaría miles de euros hacer a medida, o como una plantilla genérica? Si falla cualquiera de las tres, corrígelo antes de decirme que has terminado.</div>
+  </div>
+
+  <footer>Álvaro Morales · IA Founders</footer>
+</div>
+
+<script>
+function copyPrompt(id, btn) {
+  const text = document.getElementById(id).innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const original = btn.textContent;
+    btn.textContent = "Copiado";
+    setTimeout(() => { btn.textContent = original; }, 1500);
+  });
+}
+</script>
+</body>
+</html>
