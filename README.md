@@ -78,6 +78,8 @@ Optimizo mi flujo de trabajo con IA añadiendo al final de mis consultas la fras
 **"Hazme cinco preguntas clave, una a una, para asegurar que entiendes perfectamente mi necesidad."** 
 Este enfoque socrático transforma los monólogos en diálogos estratégicos, eliminando la ambigüedad y garantizando resultados de precisión al primer intento.
 
+15+ powerful tools to clean, optimize, and protect your Windows, macOS, and Linux machines. Open source, no ads, no bloatware. Just a faster computer. https://usekudu.com/
+
 Bring ideas to life with vibes. Create images and videos from scratch, restyle them, add music, lip sync to songs and more.
 https://www.youtube.com/watch?v=SfVxhQ3DwgM
 https://vibes.ai/
