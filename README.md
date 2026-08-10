@@ -1,4 +1,4 @@
-Apasionado por la evolución de la tecnología y la informática desde sus inicios. Mi primer contacto con la programación fué en lenguaje BASIC con un Sinclair ZX81 equipado con un procesador Z80A de 8 bits a 3.25 MHz de Zylog y 1 KB de memoria, lo que marcó el inicio de un recorrido autodidacta que continúa hasta hoy.
+Curioso y apasionado por la evolución de la tecnología informática desde sus inicios. Mi primer contacto con la programación fué en BASIC con un Sinclair ZX81 equipado con un procesador Z80A de Zilog 8 bits a 3.25 MHz y 1 KByte de memoria. Después me sedujo el código máquina y el lenguaje Assembler y sus mnemónicos. Actualmente uso la AI para diversidad de tareas, y espero que el mundo la use con la suficiente humanidad y cordura. Llegó para quedarse.
 
 <pre>
         PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
