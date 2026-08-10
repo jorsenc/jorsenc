@@ -84,6 +84,10 @@ Bring ideas to life with vibes. Create images and videos from scratch, restyle t
 https://www.youtube.com/watch?v=SfVxhQ3DwgM
 https://vibes.ai/
 
+Meet your new 3D copilot
+Tell BlenderGPT what you need — images, meshes, assets, and scene edits, all from chat.
+https://blendergpt.org/app
+
 https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/CLAUDE.md
 
 https://github.com/jorsenc/jorsenc/blob/main/NLM-CLAUDE.html
